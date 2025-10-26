@@ -5,20 +5,18 @@ library(tidyverse)
 library(kableExtra)
 ```
 
-## Literature Review
+## Prior studies have few EV owners in sample
 
-1. A study by @wong_incentives_2023 examined **incentives** affect the EV owners' acceptance, <span style="color: #739C69">but EV ownership is only 19%</span>.
-2. A study by @philip_consumer_2024 found **range anxiety** matters, <span style="color: #739C69">but EV ownership is only 1.28%</span>.
-3. Another study by @huang_are_2021 indicates the importance of **fast charging**, <span style="color: #739C69">but the sample size is only 157</span>.
-
-None of them have demographics data to study <span style="color: #739C69">heterogeneity</span>.
+1. A study by @wong_incentives_2023 examined **incentives** effect on EV owners' acceptance, <span style="color: #739C69">but EV ownership in sample is only 19%</span>.
+2. A study by @philip_consumer_2024 found **range anxiety** matters, <span style="color: #739C69">but EV ownership in sample is only 1.28%</span>.
+3. A study by @huang_are_2021 indicates the importance of **fast charging**, <span style="color: #739C69">but the sample size is only 157</span>.
 
 ::: {.centered-container}
-We need high EV ownership & large sample size, and consider heterogeneity.
+We need high EV ownership & large sample size
 :::
 
 ::: {.notes}
-There's been a few studies that looked on people's willingness to participate to smart charging programs, but they all have small sample size and low EV ownership. Therefore, we aimed to conduct a large-scale survey with high EV ownership to study the heterogeneity of BEV owners' preferences.
+There's been a few studies that looked on people's willingness to participate to smart charging programs, but they all have small sample size and low EV ownership. Therefore, we aimed to conduct a large-scale survey with high EV ownership to study BEV owners' preferences.
 :::
 
 ## Research Questions {style="line-height: 2;"}
@@ -43,7 +41,7 @@ Here we have 2 research questions. Firstly, we want to know the sensitivity of e
 In order to answer these questions, we designed a conjoint survey to collect BEV owners' willingness to participate. Then we used multinomial logit models to simulate the utility of each program feature.
 :::
 
-## Survey Design with `formr`
+## Survey Design using formr.org
 
 <br>
 <br>
@@ -95,15 +93,20 @@ But first, I want to explain what conjoint question is. If I care about apples, 
 
 ```{r}
 smc_attributes <- tibble(
-    `No.` = seq(1,5),
-    Attributes = c("Enrollment Cash", "Monthly Cash", "Monthly Override",
-                   "Min Battery", "Guaranteed Battery"),
-    Range = c("$50 to $300", "$2 to $20","0 to 5", "20% to 40%", "60% to 80%")
+  `No.` = seq(1, 5),
+  Attributes = c(
+    "Enrollment Cash",
+    "Monthly Cash",
+    "Monthly Override",
+    "Min Battery",
+    "Guaranteed Battery"
+  ),
+  Range = c("$50 to $300", "$2 to $20", "0 to 5", "20% to 40%", "60% to 80%")
 )
 
-smc_attributes_kable <- smc_attributes %>% 
-    kable(escape = FALSE, align = c("c", "l", "l")) %>% 
-    kable_styling(position = "center")
+smc_attributes_kable <- smc_attributes %>%
+  kable(escape = FALSE, align = c("c", "l", "l")) %>%
+  kable_styling(position = "center")
 
 smc_attributes_kable
 ```
@@ -119,15 +122,15 @@ smc_attributes_kable
 
 ```{r}
 smc_options <- tibble(
-    Attributes = c("Enrollment Cash", "Monthly Cash", "Monthly Override"),
-    Values = c(scales::dollar(300), scales::dollar(20), 5)
+  Attributes = c("Enrollment Cash", "Monthly Cash", "Monthly Override"),
+  Values = c(scales::dollar(300), scales::dollar(20), 5)
 )
 
-smc_options_kable <- smc_options %>% 
-    kable(escape = FALSE, align = c("c", "c")) %>% 
-    column_spec(column = 1, width = '16em') %>%
-    column_spec(column = 2, width = '10em') %>% 
-    kable_styling(position = "center")
+smc_options_kable <- smc_options %>%
+  kable(escape = FALSE, align = c("c", "c")) %>%
+  column_spec(column = 1, width = '16em') %>%
+  column_spec(column = 2, width = '10em') %>%
+  kable_styling(position = "center")
 
 smc_options_kable
 ```
@@ -163,15 +166,20 @@ The battery thresholds here are well-designed to provide an immediate visual aid
 
 ```{r}
 v2g_attributes <- tibble(
-    `No.` = seq(1,5),
-    Attributes = c("Enrollment Cash", "Occurrence Cash", "Monthly Occurrence",
-                   "Lower Bound", "Guaranteed Battery"),
-    Range = c("$50 to $300", "$2 to $20","1 to 4", "20% to 40%", "60% to 80%")
+  `No.` = seq(1, 5),
+  Attributes = c(
+    "Enrollment Cash",
+    "Occurrence Cash",
+    "Monthly Occurrence",
+    "Lower Bound",
+    "Guaranteed Battery"
+  ),
+  Range = c("$50 to $300", "$2 to $20", "1 to 4", "20% to 40%", "60% to 80%")
 )
 
-v2g_attributes_kable <- v2g_attributes %>% 
-    kable(escape = FALSE, align = c("c", "l", "l")) %>% 
-    kable_styling(position = "center")
+v2g_attributes_kable <- v2g_attributes %>%
+  kable(escape = FALSE, align = c("c", "l", "l")) %>%
+  kable_styling(position = "center")
 
 v2g_attributes_kable
 ```
@@ -187,15 +195,15 @@ v2g_attributes_kable
 
 ```{r}
 v2g_options <- tibble(
-    Attributes = c("Enrollment Cash", "Occurrence Cash", "Monthly Occurrence"),
-    Values = c(scales::dollar(300), scales::dollar(20), 1)
+  Attributes = c("Enrollment Cash", "Occurrence Cash", "Monthly Occurrence"),
+  Values = c(scales::dollar(300), scales::dollar(20), 1)
 )
 
-v2g_options_kable <- v2g_options %>% 
-    kable(escape = FALSE, align = c("c", "c")) %>% 
-    column_spec(column = 1, width = '16em') %>%
-    column_spec(column = 2, width = '10em') %>% 
-    kable_styling(position = "center")
+v2g_options_kable <- v2g_options %>%
+  kable(escape = FALSE, align = c("c", "c")) %>%
+  column_spec(column = 1, width = '16em') %>%
+  column_spec(column = 2, width = '10em') %>%
+  kable_styling(position = "center")
 
 v2g_options_kable
 ```
@@ -234,7 +242,7 @@ There are 6 SMC conjoint questions. In each question, participants are provided 
 Likewise, there are 6 V2G conjoint questions.
 :::
 
-## Survey Fielding - 1356 in Total
+## Survey Fielding - 1,356 in Total
 
 ::: {.columns}
 ::: {.column width="40%"}

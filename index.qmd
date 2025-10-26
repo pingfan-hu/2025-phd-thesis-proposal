@@ -83,7 +83,7 @@ Quantify grid supply curves to achieve peak-shaving.
 
 
 ::: {.fragment .column width="48%"}
-#### <span style="color: #2C8475;">App Development</span> 
+#### <span style="color: #2C8475;">Software Development</span> 
 
 ::: {.centered-container style="width: 500px;"}
 `surveydown`, an open-source survey platform.
@@ -92,7 +92,9 @@ Quantify grid supply curves to achieve peak-shaving.
 
 ## <span style="color: #FFB84D;">Study 1</span><br><br>Electric Vehicle Smart Charging Adoption {.dark-centered .center}
 
-Under review at *IOP - Environmental Research Letters*.
+Under second round of reviews:
+
+Hu, Pingfan, Tarroja, B., Dean, M., Forrest, K., Hittinger, E., Jenn, A. & Helveston, J.P. (2024) “Measuring Electric Vehicle Owners' Willingness to Participate in BEV Smart Charging Programs"*Environmental Research Letters*.
 
 {{< include /study-1.qmd >}}
 
