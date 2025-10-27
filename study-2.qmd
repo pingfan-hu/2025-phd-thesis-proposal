@@ -1,5 +1,15 @@
 ## <span style="color: #FFB84D;">Study 2</span><br><br>Quantifying the supply of peak-shaving from controlled EV charging {.dark-centered .center}
 
+## Recall the SMC Peak-shaving
+
+::: {style="font-size: 32px;"}
+- SMC smooths out overnight EV charging demand.
+- Electricity demand is controlled below capacity threshold.
+- It saves money and reduces pollution.
+:::
+
+![](/figs/study-1/education_1.png){fig-align="center" width="90%"}
+
 ## Research Questions {style="line-height: 2;"}
 
 1. **Peak-shaving**: How much does peak-shaving from controlled EV charging cost utilities?
@@ -19,7 +29,7 @@ Peak-shaving **simulation** using model from study 1.
 ## Plan of Action {.smaller}
 
 ### Step 1: Data Collection {style="font-size: 32px; color: #739C69;"}
-- **NHTS** trip data: EV usage and charging patterns
+- **NHTS** trip data: Vehicle travel patterns
 - **NREL** Cambium data: Household electricity consumption
 - **U.S. Census**: Count of single family households
 - **Study 1**: MXL model of SMC enrollment utilities
@@ -36,7 +46,7 @@ Peak-shaving **simulation** using model from study 1.
 
 <br>
 
-Travel patterns of 26,000 real BEVs.
+Travel patterns of 26,000 vehicle owners.
 
 ## Simulated EV Charging Profile {.light-centered}
 
@@ -61,30 +71,63 @@ Forward-looking data of household electricity consumption in each GEA region.
 ![](/figs/study-2/caiso_nrel.png){fig-align="center" width=100% .purple-border}
 
 ::: {style="font-size: 32px;"}
-7.69M single families, collected from U.S. Census.
+7.69M single-family homes, collected from U.S. Census.
 :::
 
 ## Peak-shaving Simulation {.dark-centered .center}
 
-## Assumptions {.light-centered .center}
-
-- 200-mile range BEV.
-- Level 2 home charger.
-- Peak: 10AM-12:00AM.
-- Valley: 12:00AM-7AM.
-- Battery thresholds: 20%-80%.
-- Auto-override (2x per month).
-
 ## Original Consumption Profile {.light-centered}
 
+::: {.column width="70%"}
+
+<br>
+
 ![](/figs/study-2/caiso_profile_1.png){fig-align="center" width=85% .purple-border}
+:::
+
+::: {.column width="30%"}
+
+<br>
+
+<span style="color: #ED6D46; font-size: 36px">Assumptions</span>
+
+::: {style="font-size: 27px;"}
+- 200-mile range BEV.
+- Level 2 charger.
+- Peak: 10AM-12:00AM.
+- Valley: 12:00AM-7AM.
+- Battery: 20%-80%.
+- Auto-override.
+:::
+:::
 
 ## Shifted Consumption with Peak-shaving {.light-centered}
+
+::: {.column width="70%"}
+
+<br>
 
 ![](/figs/study-2/caiso_profile_2.png){fig-align="center" width=85% .purple-border}
 
 ::: {style="font-size: 32px;"}
-60% SMC enrollment, EV-to-house ratio 1:4.
+90% SMC enrollment, EV-to-house ratio 1:1.
+:::
+:::
+
+::: {.column width="30%"}
+
+<br>
+
+<span style="color: #ED6D46; font-size: 36px">Assumptions</span>
+
+::: {style="font-size: 27px;"}
+- 200-mile range BEV.
+- Level 2 charger.
+- Peak: 10AM-12:00AM.
+- Valley: 12:00AM-7AM.
+- Battery: 20%-80%.
+- Auto-override.
+:::
 :::
 
 ## MXL Model of Monthly Incentives {.light-centered}
@@ -111,4 +154,4 @@ More incentives lead to higher SMC enrollment, thus more peak shaving.
 ## Policy Implications {.light-centered .center}
 
 1. Utilities must plan a budget that scales with enrollment levels.
-2. Governments could provide subsidies to offset the cost.
+2. Governments could get engaged (e.g. provide subsidies to offset the cost).

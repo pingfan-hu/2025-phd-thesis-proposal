@@ -7,35 +7,6 @@ source("scripts.R")
 
 ## Appendix {.dark-centered .center}
 
-## Survey Question - Car Ownership
-
-![](/figs/study-1/car_ownership.png){fig-align="center" width="55%"}
-
-## Survey Results - Top 10 BEV
-![](/figs/study-1/top_bev.png)
-
-::: {.notes}
-This is a showcase of the top 10 BEV models from our survey results. You can see that Tesla is the most popular brand, followed by Ford, Chevrolet, and some other popular brands. These results are also representative of the BEV market in the United States.
-:::
-
-## Survey Results - Demographics
-
-::: {.fragment style="fig-align: center;"}
-![](/figs/study-1/result_1.png)
-:::
-
-::: {.fragment style="fig-align: center;"}
-![](/figs/study-1/result_2.png)
-:::
-
-::: {.fragment style="fig-align: center;"}
-![](/figs/study-1/result_3.png)
-:::
-
-::: {.notes}
-Other than the BEV models, there are also some important demographics information collected in the survey. You can see most families have 2 cars; most of owners charge at home for more than 8 hours; and most of them care of climate very much. And more importantly, we have 100% BEV ownership.
-:::
-
 ## SMC Scenario Analysis
 ![](/figs/study-1/smc_scenario_plot.png){fig-align="center"}
 

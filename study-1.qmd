@@ -260,9 +260,7 @@ Likewise, there are 6 V2G conjoint questions.
 
 ::: {.columns}
 ::: {.column width="40%"}
-
 ![](/figs/study-1/meta_ad.png)
-
 :::
 
 ::: {.column width="60%"}
@@ -284,6 +282,35 @@ Likewise, there are 6 V2G conjoint questions.
 
 ::: {.notes}
 We collected in total of 1,356 complete, filtered responses from Meta and Dynata throughout 2024, and we made sure that all participants are real BEV owners.
+:::
+
+## Survey Question - Car Ownership
+
+![](/figs/study-1/car_ownership.png){fig-align="center" width="55%"}
+
+## Survey Results - Top 10 BEV
+![](/figs/study-1/top_bev.png)
+
+::: {.notes}
+This is a showcase of the top 10 BEV models from our survey results. You can see that Tesla is the most popular brand, followed by Ford, Chevrolet, and some other popular brands. These results are also representative of the BEV market in the United States.
+:::
+
+## Survey Results - Demographics
+
+::: {.fragment style="fig-align: center;"}
+![](/figs/study-1/result_1.png)
+:::
+
+::: {.fragment style="fig-align: center;"}
+![](/figs/study-1/result_2.png)
+:::
+
+::: {.fragment style="fig-align: center;"}
+![](/figs/study-1/result_3.png)
+:::
+
+::: {.notes}
+Other than the BEV models, there are also some important demographics information collected in the survey. You can see most families have 2 cars; most of owners charge at home for more than 8 hours; and most of them care of climate very much. And more importantly, we have 100% BEV ownership.
 :::
 
 ## Survey Results - Willingness to Participate {.smaller}
@@ -444,16 +471,6 @@ v2g_attr_equiv %>%
 ::: {style="font-size: 26px;"}
 1. **Smaller** value indicates higher efficiency.
 2. **Monetary** incentives are valued more in V2G than SMC.
-3. **Guaranteed** threshold is more important in SMC than V2G, indicating range anxiety.
+3. **Guaranteed** thresholds are in high efficiency, indicating range anxiety.
 4. Attribute equivalencies can be used to inform incentive design.
 :::
-
-::: {.notes}
-Because the sensitivity plots are linear in the areas we concern, there is a convenient way to reveal the relevant importance of each feature. Imagine we want to increase 5% of enrollment for each program. We start from baseline, and increase each feature value individually. Then we can see how much each one needs to be, in order to achieve the 5% enrollment increase. And here are our interpretations:
-
-To start with, smaller value indicates higher efficiency, and recurring incentives are more important thant one-time. For example, in SMC, the enrollment cash needs to be \$64.7 to achieve a 5% enrollment increase, while for monthly cash, it only needs to be \$3.2. So monthly cash is more efficient than enrollment cash. Same is true for the 2 types of cash in V2G.
-
-Also, guaranteed threshold is more important in SMC than in V2G, indicating range anxiety. Finally, monetary incentives are valued more in V2G than in SMC. This indicates that BEV owners are willing to leverage their BEVs as a source of income.
-:::
-
-

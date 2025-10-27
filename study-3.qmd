@@ -413,7 +413,13 @@ An **R script** defining the survey Shiny app.
 
 ## `surveydown` is highly flexible and customizable to user needs {.dark-centered .center style="font-size: 1.2em;"}
 
-## Shiny compatibility: `leaflet` map {.light-centered .center}
+## Randomization: Conjoint question {.light-centered}
+
+<br>
+
+![](/figs/study-1/conjoint_example.jpg){fig-align="center" width="80%"}
+
+## Shiny compatibility: `leaflet` map {.light-centered}
 
 ![](/figs/study-3/leaflet.gif){fig-align="center" width=65%}
 
