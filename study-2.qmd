@@ -1,13 +1,8 @@
-```{r}
-#| label: setup-study-2
-#| include: false
-library(tidyverse)
-library(kableExtra)
-```
+## <span style="color: #FFB84D;">Study 2</span><br><br>Quantifying the supply of peak-shaving from controlled EV charging {.dark-centered .center}
 
 ## Research Questions {style="line-height: 2;"}
 
-1. **Peak-shaving**: How are supply curves quantified to achieve peak-shaving?
+1. **Peak-shaving**: How much does peak-shaving from controlled EV charging cost utilities?
 
 2. **Variations:** How do peak-shaving results change based on regions, seasons, EV-to-house ratios, and enrollment rates.
 
@@ -30,14 +25,18 @@ Peak-shaving **simulation** using model from study 1.
 - **Study 1**: MXL model of SMC enrollment utilities
 
 ### Step 2: Simulation {style="font-size: 32px; color: #739C69;"}
-- Original grid consumption profiles
-- A variety of peak-shaved grid consumption profiles
+- Simulate grid demand profiles with different EV charging loads
+- Simulate peak load reduction under different levels of SMC enrollment
 
 ### Step 3: Sensitivity Analysis {style="font-size: 32px; color: #739C69;"}
 - Compare the peak-shaving results of different scenarios.
 - Summarize and provide policy implications.
 
 ## NHTS Trip Data {.dark-centered .center}
+
+<br>
+
+Travel patterns of 26,000 real BEVs.
 
 ## Simulated EV Charging Profile {.light-centered}
 
@@ -48,6 +47,10 @@ Energy consumption and concurrent charging % of 10,000 EVs.
 :::
 
 ## NREL Household Electricity Consumption {.dark-centered .center}
+
+<br>
+
+Forward-looking data of household electricity consumption in each GEA region.
 
 ## 18 GEA Regions {.light-centered}
 
@@ -62,6 +65,15 @@ Energy consumption and concurrent charging % of 10,000 EVs.
 :::
 
 ## Peak-shaving Simulation {.dark-centered .center}
+
+## Assumptions {.light-centered .center}
+
+- 200-mile range BEV.
+- Level 2 home charger.
+- Peak: 10AM-12:00AM.
+- Valley: 12:00AM-7AM.
+- Battery thresholds: 20%-80%.
+- Auto-override (2x per month).
 
 ## Original Consumption Profile {.light-centered}
 
@@ -94,7 +106,7 @@ More incentives lead to higher SMC enrollment, thus more peak shaving.
 - All 18 GEA regions in all 4 seasons.
 - Varying EV-to-house ratios (1:4, 1:2, 1:1).
 - Varying SMC enrollment rates (from 0% to 100%).
-- Varying peak-shaving "from" and "to" windows.
+- Varying peak and valley windows.
 
 ## Policy Implications {.light-centered .center}
 

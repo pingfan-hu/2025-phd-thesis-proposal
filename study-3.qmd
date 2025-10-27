@@ -4,6 +4,18 @@
 source("scripts.R")
 ```
 
+## <span style="color: #FFB84D;">Study 3</span><br>The `surveydown` Survey Platform {.dark-centered .center}
+
+<br>
+
+::: {style="font-size: 28px;"}
+Published in *PLoS ONE*:
+
+<br>
+
+Hu, Pingfan, Bunea, Bogdan, & Helveston, J. P. (2025). "surveydown: An open-source, markdown-based platform for programmable and reproducible surveys" *PLOS ONE*, 20(8), e0331002. https://doi.org/10.1371/journal.pone.0331002
+:::
+
 ## Typical Web Survey {.light-centered .center}
 
 ![](/figs/study-3/demo.gif){fig-align="center" width="80%" .purple-border}
@@ -31,33 +43,15 @@ source("scripts.R")
 ::: {.fragment}
 ❌ Version control
 :::
-:::
-:::
 
-## {.light-centered .center}
-
-![](/figs/study-3/version-control.png){fig-align="center" width="40%"}
-
-## {.light-centered .center}
-
-::: {.column width="70%"}
-![](/figs/study-3/google-form.png)
-:::
-
-::: {.column style="width: 30%; text-align: left;"}
-
-### Limitations
-
-<br>
-
-❌ Reproduciblity
-
-❌ Version control
-
+::: {.fragment}
 ❌ Limited features
+:::
 
 ::: {.fragment}
 ❌ Open source
+:::
+
 :::
 :::
 
@@ -413,196 +407,15 @@ An **R script** defining the survey Shiny app.
 
 ![](/figs/study-3/technologies.svg){fig-align="center" width=100%}
 
-## Built-in features of `surveydown` {.dark-centered .center style="font-size: 1.2em;"}
-
 ## `surveydown` is feature-packed! {.light-centered .center}
 
 ![](/figs/study-3/features.png){width=75%}
 
-## Feature Highlights {.light-centered .center}
-
-<br>
-
-::: {.grid-container style="height: 20vh;"}
-::: {.centered-container style="width: 500px;"}
-Question types
-:::
-
-::: {.centered-container style="width: 500px;"}
-Conditional logic
-:::
-:::
-
-## 12 Built-in Question Types {.light-centered .center}
-
-::: {.four-by-three-grid}
-`text`
-
-`textarea`
-
-`numeric`
-
-`mc`
-
-`mc_multiple`
-
-`mc_buttons`
-
-`mc_multiple_buttons`
-
-`select`
-
-`slider`
-
-`slider_numeric`
-
-`date`
-
-`daterange`
-:::
-
-## Question Type: `text` {.light-centered .center}
-
-<br>
-
-::: {.column style="width: 48%; font-size: 0.7em;"}
-
-```{r}
-#| results: 'asis'
-question_text()
-```
-
-:::
-
-::: {.column style="width: 4%; font-size: 0.7em; text-align: center;"}
-
-<br>
-
-### -->
-:::
-
-::: {.column style="width: 48%; margin-left: -10px; margin-top: -10px;"}
-![](/figs/study-3/question-text.png){width=100%}
-:::
-
-## Question Type: `mc_buttons` {.light-centered .center}
-
-<br>
-
-::: {.column style="width: 48%; font-size: 0.7em; margin-top: -10px;"}
-
-<br>
-
-```{r}
-#| results: 'asis'
-question_mc_buttons()
-```
-
-:::
-
-::: {.column style="width: 4%; font-size: 0.7em; text-align: center;"}
-
-<br>
-<br>
-<br>
-<br>
-
-### -->
-:::
-
-::: {.column style="width: 48%; margin-left: -10px; margin-top: -30px;"}
-![](/figs/study-3/question-mc-buttons.png){width=100%}
-:::
-
-## Conditional logic {.light-centered .center}
-
-<br>
-
-::: {.grid-container style="height: 30vh;"}
-::: {.centered-container style="width: 500px;"}
-**Conditional showing**
-:::
-
-::: {.centered-container style="width: 500px;"}
-Conditional skipping
-:::
-
-::: {.centered-container style="width: 500px;"}
-Conditional stopping
-:::
-:::
-
-## Conditional showing - `sd_show_if()` {.light-centered}
-
-<br>
-
-![](/figs/study-3/conditional-showing.gif){width=50% .purple-border}
-
-## Conditional showing - `sd_show_if()` {.light-centered}
-
-<br>
-
-::: {.column style="width: 49%; font-size: 0.7em;"}
-
-### `survey.qmd` {style="text-align: center;"}
-
-```{r}
-#| results: 'asis'
-show_if_survey()
-```
-
-:::
-
-::: {.column width="2%"}
-:::
-
-::: {.column .fragment style="width: 49%; font-size: 0.7em;"}
-
-### `app.R` {style="text-align: center;"}
-
-```{r}
-#| results: 'asis'
-show_if_app()
-```
-
-::: {.bubble-top style="text-align: center; display: block; transform: none; top: 40%;"}
-Condition ~ Target
-
-<br>
-
-"If {condition}, then show {target}"
-:::
-:::
-
-## Extended features of `surveydown` {.dark-centered .center style="font-size: 1.2em;"}
+## `surveydown` is highly flexible and customizable to user needs {.dark-centered .center style="font-size: 1.2em;"}
 
 ## Shiny compatibility: `leaflet` map {.light-centered .center}
 
 ![](/figs/study-3/leaflet.gif){fig-align="center" width=65%}
-
-## Generate surveys with LLMs! {.light-centered .center}
-
-![](/figs/study-3/llm.gif){fig-align="center" width=80% .purple-border}
-
-## The companion [`sdstudio`](https://github.com/surveydown-dev/sdstudio/) package {.dark-centered .center style="font-size: 1.2em;"}
-
-<br>
-
-::: {.centered-container-dark style="width: 500px;"}
-`sdstudio::launch()`
-:::
-
-##
-
-![](/figs/study-3/sdstudio-build.gif){fig-align="center" width=100% .purple-border}
-
-##
-
-![](/figs/study-3/sdstudio-preview.gif){fig-align="center" width=100% .purple-border}
-
-##
-
-![](/figs/study-3/sdstudio-data.gif){fig-align="center" width=100% .purple-border}
 
 ## `surveydown` vs other platforms {.light-centered .center}
 
