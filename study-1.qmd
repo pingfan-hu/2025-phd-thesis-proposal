@@ -358,7 +358,8 @@ attribute_kable_enroll_cash
 ```
 
 ::: {style="text-align: center;"}
-<img src="https://raw.githubusercontent.com/pingfan-hu/pingfanResources/main/bev/battery_smc/u_200_g_120_m_40.png" style="width: 400px; width: 100%; height: auto;"/>
+
+<img src="https://raw.githubusercontent.com/pingfan-hu/resources/main/bev/battery_smc/u_200_g_120_m_40.png" style="width: 400px; width: 100%; height: auto;"/>
 
 :::
 :::
