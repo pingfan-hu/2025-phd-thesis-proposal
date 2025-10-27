@@ -5,6 +5,8 @@ library(kableExtra)
 source("scripts.R")
 ```
 
+## Appendix {.dark-centered .center}
+
 ## Survey Question - Car Ownership
 
 ![](/figs/study-1/car_ownership.png){fig-align="center" width="55%"}

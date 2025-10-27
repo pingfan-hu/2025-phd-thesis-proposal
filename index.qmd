@@ -16,7 +16,7 @@ I start with a survey research on smart charging, followed by a nation-wide grid
 
 I hope these studies could benefit sustainable transportation, and give persistent contributions for future research.
 
-## Thanks for listening! {.dark-centered .center}
+## Thanks for listening! {.light-centered .center}
 
 {{< include /appendix.qmd >}}
 
