@@ -64,7 +64,7 @@ V2G is short for Vehicle-to-Grid. It is another type of smart charging that allo
 #### <span style="color: #2C8475;">Survey Research & Modeling</span> {style="text-align: center;"}
 
 ::: {.centered-container style="width: 900px;"}
-Consumer preferences on smart charging adoption.
+Electric Vehicle Smart Charging Adoption
 :::
 :::
 
@@ -74,7 +74,7 @@ Consumer preferences on smart charging adoption.
 #### <span style="color: #2C8475;">Simulation Research</span>
 
 ::: {.centered-container style="width: 500px;"}
-Quantify grid supply curves to achieve peak-shaving.
+Grid Peak-Shaving Quantification
 :::
 :::
 
@@ -85,7 +85,7 @@ Quantify grid supply curves to achieve peak-shaving.
 #### <span style="color: #2C8475;">Software Development</span> 
 
 ::: {.centered-container style="width: 500px;"}
-`surveydown`, an open-source survey platform.
+The `surveydown` Survey Platform
 :::
 :::
 
@@ -103,7 +103,7 @@ Hu, Pingfan, Tarroja, B., Dean, M., Forrest, K., Hittinger, E., Jenn, A. & Helve
 
 {{< include /study-1.qmd >}}
 
-## <span style="color: #FFB84D;">Study 2</span><br><br>Smart Charging Economy {.dark-centered .center}
+## <span style="color: #FFB84D;">Study 2</span><br><br>Grid Peak-Shaving Quantification {.dark-centered .center}
 
 {{< include /study-2.qmd >}}
 
