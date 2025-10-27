@@ -7,12 +7,14 @@ library(kableExtra)
 
 ## Prior studies have few EV owners in sample
 
-1. A study by @wong_incentives_2023 examined **incentives** effect on EV owners' acceptance, <span style="color: #739C69">but EV ownership in sample is only 19%</span>.
-2. A study by @philip_consumer_2024 found **range anxiety** matters, <span style="color: #739C69">but EV ownership in sample is only 1.28%</span>.
-3. A study by @huang_are_2021 indicates the importance of **fast charging**, <span style="color: #739C69">but the sample size is only 157</span>.
+1. A survey-based study by @wong_incentives_2023 examined **incentives** effect on EV owners' acceptance, <span style="color: #739C69">but EV ownership in sample was only 19%</span>.
+2. A survey-based study by @philip_consumer_2024 found **range anxiety** matters, <span style="color: #739C69">but EV ownership in sample was only 1.28%</span>.
+3. A survey-based study by @huang_are_2021 indicates the importance of **fast charging**, <span style="color: #739C69">but the sample size was only 157</span>.
+
+<br>
 
 ::: {.centered-container}
-We need high EV ownership & large sample size
+We need high EV ownership & large sample size.
 :::
 
 ::: {.notes}
