@@ -2,6 +2,7 @@
 #| label: appendix
 #| include: false
 library(kableExtra)
+source("scripts.R")
 ```
 
 ## Survey Question - Car Ownership
