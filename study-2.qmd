@@ -39,8 +39,8 @@ Peak-shaving **simulation** using model from study 1.
 - Simulate peak load reduction under different levels of SMC enrollment
 
 ### Step 3: Sensitivity Analysis {style="font-size: 32px; color: #739C69;"}
-- Compare the peak-shaving results of different scenarios.
-- Summarize and provide policy implications.
+- Compare the peak-shaving results of different scenarios
+- Summarize and provide policy implications
 
 ## NHTS Trip Data {.dark-centered .center}
 
