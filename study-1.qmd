@@ -34,16 +34,16 @@ There's been a few studies that looked on people's willingness to participate to
 :::
 
 ::: {.centered-container}
-**Multinomial logit model** for utility simulations.
+**Mixed logit model** for utility simulations.
 :::
 
 ::: {.notes}
 Here we have 2 research questions. Firstly, we want to know the sensitivity of each smart charging program feature; secondly, we want to know under what conditions will BEV owners be more willing to opt in to the programs.
 
-In order to answer these questions, we designed a conjoint survey to collect BEV owners' willingness to participate. Then we used multinomial logit models to simulate the utility of each program feature.
+In order to answer these questions, we designed a conjoint survey to collect BEV owners' willingness to participate. Then we used mixed logit models to simulate the utility of each program feature.
 :::
 
-## Survey Design using formr.org
+## Survey Design using `formr.org`
 
 <br>
 <br>
@@ -340,7 +340,7 @@ Without compensation, users will not participate.
 :::
 
 ::: {.notes}
-The willingness to participate is quantified with the multinomial logit model, shortened as MNL. The utility of each option is a linear combination of the attributes, which is the $v_j$ here, plus an error term, shown as $\epsilon_j$. The probability of choosing an option is the exponential of its utility divided by the sum of exponentials of all utilities.
+The willingness to participate is quantified with the mixed logit model, shortened as MNL. The utility of each option is a linear combination of the attributes, which is the $v_j$ here, plus an error term, shown as $\epsilon_j$. The probability of choosing an option is the exponential of its utility divided by the sum of exponentials of all utilities.
 
 Here are the coefficient estimate plots of both programs. As you can see, the "No Choice" has highgest coefficient, which simply means that without compensation, users will not participate in the programs.
 

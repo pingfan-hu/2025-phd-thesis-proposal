@@ -70,21 +70,18 @@ Electric Vehicle Smart Charging Adoption
 
 <br>
 
-::: {.fragment .column width="48%"}
+::: {.fragment .column}
 #### <span style="color: #2C8475;">Simulation Research</span>
 
-::: {.centered-container style="width: 500px;"}
+::: {.centered-container style="width: 400px;"}
 Grid Peak-Shaving Quantification
 :::
 :::
 
-::: {.column width="4%"}
-:::
-
-::: {.fragment .column width="48%"}
+::: {.fragment .column}
 #### <span style="color: #2C8475;">Software Development</span> 
 
-::: {.centered-container style="width: 500px;"}
+::: {.centered-container style="width: 400px;"}
 The `surveydown` Survey Platform
 :::
 :::
