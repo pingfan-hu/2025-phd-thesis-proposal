@@ -3,7 +3,7 @@
 ## Recall the SMC Peak-shaving
 
 ::: {style="font-size: 32px;"}
-- SMC smooths out overnight EV charging demand (called "Peak-shaving").
+- SMC smooths out EV charging spike (called "Peak-shaving").
 - Electricity demand is controlled below capacity threshold.
 - It saves money and reduces pollution.
 :::
