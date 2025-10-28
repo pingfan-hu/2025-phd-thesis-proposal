@@ -23,7 +23,7 @@ Smart charging is a type of managed charging, which includes Supplier-Managed Ch
 ## SMC - Supplier Managed Charging
 
 ::: {style="font-size: 32px;"}
-- SMC smooths out overnight EV charging demand.
+- SMC smooths out overnight EV charging demand (called "Peak-shaving").
 - Electricity demand is controlled below capacity threshold.
 - It saves money and reduces pollution.
 :::
@@ -39,7 +39,7 @@ As you can see, with unmanaged charging, the BEV load easily passes over the cap
 ## SMC - Supplier Managed Charging
 
 ::: {style="font-size: 32px;"}
-- SMC smooths out overnight EV charging demand.
+- SMC smooths out overnight EV charging demand (called "Peak-shaving").
 - Electricity demand is controlled below capacity threshold.
 - It saves money and reduces pollution.
 :::

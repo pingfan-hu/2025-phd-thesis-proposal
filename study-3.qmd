@@ -429,4 +429,8 @@ An **R script** defining the survey Shiny app.
 
 ![](/figs/study-3/comparisons.png){fig-align="center" width=100% .purple-border}
 
+## Star Count on GitHub {.light-centered}
+
+![](/figs/study-3/surveydown-star-history.png){fig-align="center" width=80% .purple-border}
+
 ## [**surveydown.org**](https://surveydown.org) {.dark-centered .center style="font-size: 1.2em;"}

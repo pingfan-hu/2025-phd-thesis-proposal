@@ -3,7 +3,7 @@
 ## Recall the SMC Peak-shaving
 
 ::: {style="font-size: 32px;"}
-- SMC smooths out overnight EV charging demand.
+- SMC smooths out overnight EV charging demand (called "Peak-shaving").
 - Electricity demand is controlled below capacity threshold.
 - It saves money and reduces pollution.
 :::
@@ -29,8 +29,8 @@ Peak-shaving **simulation** using model from study 1.
 ## Plan of Action {.smaller}
 
 ### Step 1: Data Collection {style="font-size: 32px; color: #739C69;"}
-- **NHTS** trip data: Vehicle travel patterns
-- **NREL** Cambium data: Household electricity consumption
+- **NHTS**: Charging behavior data
+- **NREL**: Household electricity consumption data
 - **U.S. Census**: Count of single family households
 - **Study 1**: MXL model of SMC enrollment utilities
 
@@ -42,7 +42,7 @@ Peak-shaving **simulation** using model from study 1.
 - Compare the peak-shaving results of different scenarios
 - Summarize and provide policy implications
 
-## NHTS Trip Data {.dark-centered .center}
+## NHTS - National Household Travel Survey {.dark-centered .center}
 
 <br>
 
@@ -56,11 +56,11 @@ Travel patterns of 26,000 vehicle owners.
 Energy consumption and concurrent charging % of 10,000 EVs.
 :::
 
-## NREL Household Electricity Consumption {.dark-centered .center}
+## NREL - National Renewable Energy Lab {.dark-centered .center}
 
 <br>
 
-Forward-looking data of household electricity consumption in each GEA region.
+Data of household electricity consumption in each GEA region.
 
 ## 18 GEA Regions {.light-centered}
 
