@@ -1,0 +1,42 @@
+Hittinger:
+
+- What are we expecting to take away from study 2?
+
+P: After the sensitivity analysis, we can learn about each case
+
+E: Is there anything more concrete that can be said that builds on sensitivity analysis results. To give recommendations that are more general.
+
+- Should we be using "net demand" install of total demand, esp in CA?
+
+P: The NREL data is a projected demand for the "future" (2025 projected from 2024).
+
+Grady:
+
+- Hypotheses: Reflect on what do you expect to find: a) seasonality may change results b) don't have data on whether people's incentives change over time; is this an issue? Will people's preferences change over time?
+
+Will seasonality not just in grid load, but also on enrollment?
+
+P: Survey data is static in time, but we're looking at a set of households near into the future.
+
+Main answer: "calibration" is the term you're looking for
+Better answer: It's about demographics of homeowners
+
+- Look at potential specific events, where the utility would be willing to pay much more for control for that event.
+
+
+Van Dorp:
+
+- Methodological questions. When you say "simulation", is that "deterministic" or "stochastic".
+
+P: Not sampling, just doing a deterministic simulation.
+
+VD: In appendix, describe in detail how the simulation results.
+
+- What about price of electricity?
+
+P: The cash incentives capture willingness to participate for money, which in turn is effectively price
+
+- Can we model preference at the regional level?
+
+P: Yes, we could if we account for differences in preferences by region
+
