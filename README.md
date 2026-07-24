@@ -1,6 +1,6 @@
 Slides for my talk on PhD thesis proposal
 
-*PhD Proposal Defense:
+*PhD Thesis Proposal:
 Electric Vehicle Smart Charging Adoption,
 Grid Peak-Shaving Quantification, and
 The `surveydown` Survey Platform*
