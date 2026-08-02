@@ -7,9 +7,8 @@ title: "PhD Thesis Proposal:<br><span style='font-size: 0.7em;'>Electric Vehicle
 author: "<br>**Pingfan Hu**<br>George Washington University"
 
 format:
-  revealjs: 
+  touhou-revealjs:
     smaller: false
-    theme: styles/theme.scss
     css: styles/slides.css
     bibliography: bibliography.bib
     slide-number: true

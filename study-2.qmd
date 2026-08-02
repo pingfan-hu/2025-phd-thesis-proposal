@@ -1,6 +1,6 @@
 ## <span style="color: #FFB84D;">Study 2</span><br><br>Quantifying the supply of peak-shaving from controlled EV charging {.dark-centered .center}
 
-## Recall the SMC Peak-shaving
+## Recall the SMC Peak-shaving {.light-centered .center}
 
 ::: {style="font-size: 32px;"}
 - SMC smooths out EV charging spike (called "Peak-shaving").
@@ -10,7 +10,7 @@
 
 ![](/figs/study-1/education_1.png){fig-align="center" width="90%"}
 
-## Research Questions {style="line-height: 2;"}
+## Research Questions {style="line-height: 2;" .light-centered .center}
 
 1. **Peak-shaving**: How much does peak-shaving from controlled EV charging cost utilities?
 
@@ -26,7 +26,7 @@
 Peak-shaving **simulation** using model from study 1.
 :::
 
-## Plan of Action {.smaller}
+## Plan of Action {.smaller .light-centered .center}
 
 ### Step 1: Data Collection {style="font-size: 32px; color: #739C69;"}
 - **NHTS**: Charging behavior data
@@ -48,7 +48,7 @@ Peak-shaving **simulation** using model from study 1.
 
 Travel patterns of 26,000 vehicle owners.
 
-## Simulated EV Charging Profile {.light-centered}
+## Simulated EV Charging Profile {.light-centered .center}
 
 ![](/figs/study-2/ev_charging_profile.png){fig-align="center" width=85% .purple-border}
 
@@ -62,11 +62,11 @@ Energy consumption and concurrent charging % of 10,000 EVs.
 
 Data of household electricity consumption in each GEA region.
 
-## 18 GEA Regions {.light-centered}
+## 18 GEA Regions {.light-centered .center}
 
 ![](/figs/study-2/gea_map.png){fig-align="center" width="90%"}
 
-## CAISO as an Example {.light-centered}
+## CAISO as an Example {.light-centered .center}
 
 ![](/figs/study-2/caiso_nrel.png){fig-align="center" width=100% .purple-border}
 
@@ -76,7 +76,7 @@ Data of household electricity consumption in each GEA region.
 
 ## Peak-shaving Simulation {.dark-centered .center}
 
-## Original Consumption Profile {.light-centered}
+## Original Consumption Profile {.light-centered .center}
 
 ::: {.column width="70%"}
 
@@ -101,7 +101,7 @@ Data of household electricity consumption in each GEA region.
 :::
 :::
 
-## Shifted Consumption with Peak-shaving {.light-centered}
+## Shifted Consumption with Peak-shaving {.light-centered .center}
 
 ::: {.column width="70%"}
 
@@ -130,11 +130,11 @@ Data of household electricity consumption in each GEA region.
 :::
 :::
 
-## MXL Model of Monthly Incentives {.light-centered}
+## MXL Model of Monthly Incentives {.light-centered .center}
 
 ![](/figs/study-2/smc_monthly_sens_plot.png){fig-align="center" width="90%" .purple-border}
 
-## EV Peak Increase <span style="color: #ED6D46;">vs</span> Monthly Incentives
+## EV Peak Increase <span style="color: #ED6D46;">vs</span> Monthly Incentives {.light-centered .center}
 
 ![](/figs/study-2/ev_peak_increase_and_cost.png){fig-align="center" width="85%" .purple-border}
 
