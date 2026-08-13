@@ -203,3 +203,32 @@ iframe {
   vertical-align: middle;
   margin-right: 15px;
 }
+
+/* Title-slide logo is a CSS background ON the #title-slide section (image set via
+   `style: "... background-image: url(...)"` in title-slide-attributes), NOT
+   Reveal's data-background layer. That keeps it INSIDE the scaled .slides stage,
+   so it sizes, positions, and scales relative to the slide content. Same
+   treatment as the 2026 thesis-defense deck. */
+#title-slide {
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: right 7% center;
+}
+
+/* The theme caps title text at 58%, tuned for its default 28% logo. This
+   deck's logo is 25% at `right 7%`, so it starts ~68% across the stage;
+   widen the cap accordingly so the title lines don't wrap. */
+#title-slide > h1.title,
+#title-slide > .quarto-title-authors {
+  max-width: 66%;
+}
+
+/* Reveal centers lists as inline-blocks on centered slides, so each list's
+   left edge depends on its own width and the two bullet groups on the Survey
+   Fielding slide land at different indents. On slides marked .left-lists,
+   lists become normal blocks pinned to one shared left edge instead; the
+   margin keeps the bullets indented relative to the group headings. */
+.reveal .left-lists ul {
+  display: block;
+  margin-left: 2.5em;
+}

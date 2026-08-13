@@ -28,6 +28,8 @@ Peak-shaving **simulation** using model from study 1.
 
 ## Plan of Action {.smaller .light-centered .center}
 
+::: {style="text-align: left; width: fit-content; margin-left: auto; margin-right: auto;"}
+
 ### Step 1: Data Collection {style="font-size: 32px; color: #739C69;"}
 - **NHTS**: Charging behavior data
 - **NREL**: Household electricity consumption data
@@ -41,6 +43,8 @@ Peak-shaving **simulation** using model from study 1.
 ### Step 3: Sensitivity Analysis {style="font-size: 32px; color: #739C69;"}
 - Compare the peak-shaving results of different scenarios
 - Summarize and provide policy implications
+
+:::
 
 ## NHTS - National Household Travel Survey {.dark-centered .center}
 
@@ -76,7 +80,7 @@ Data of household electricity consumption in each GEA region.
 
 ## Peak-shaving Simulation {.dark-centered .center}
 
-## Original Consumption Profile {.light-centered .center}
+## Original Consumption Profile {.light-centered}
 
 ::: {.column width="70%"}
 
@@ -101,7 +105,7 @@ Data of household electricity consumption in each GEA region.
 :::
 :::
 
-## Shifted Consumption with Peak-shaving {.light-centered .center}
+## Shifted Consumption with Peak-shaving {.light-centered}
 
 ::: {.column width="70%"}
 
