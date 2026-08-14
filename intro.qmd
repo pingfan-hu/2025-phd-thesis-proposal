@@ -9,13 +9,13 @@ Source: Argonne National Lab, [www.anl.gov/ev-facts/model-sales](https://www.anl
 ## Introduction {.smaller .light-centered .center}
 
 - **Unmanaged** BEV charging is becoming a problem to the grid.
-- **Managed** charging is cheaper and smoothes out the grid load.
+- **Managed** charging is cheaper and smooths out the grid load.
 - **Smart** charging: Supplier-Managed Charging (SMC) and Vehicle-to-Grid (V2G).
 
 ![](/figs/study-1/smart_charging.png){fig-align="center" width="65%"}
 
 ::: {.notes}
-Unmanaged BEV charging is becoming a problem to the grid due to the spike. That's why we need managed charging to smoothes out the grid load as well as keep the price low.
+Unmanaged BEV charging is becoming a problem to the grid due to the spike. That's why we need managed charging to smooth out the grid load as well as keep the price low.
 
 Smart charging is a type of managed charging, which includes Supplier-Managed Charging, shortened as SMC, and Vehicle-to-Grid, shortened as V2G.
 :::
@@ -23,8 +23,8 @@ Smart charging is a type of managed charging, which includes Supplier-Managed Ch
 ## SMC - Supplier Managed Charging {.light-centered .center}
 
 ::: {style="font-size: 32px;"}
-- SMC smooths out EV charging spike (called "Peak-shaving").
-- Electricity demand is controlled below capacity threshold.
+- SMC smooths out the EV charging spike (called "Peak-shaving").
+- Electricity demand is controlled below the capacity threshold.
 - It saves money and reduces pollution.
 :::
 
@@ -33,14 +33,14 @@ Smart charging is a type of managed charging, which includes Supplier-Managed Ch
 ::: {.notes}
 For SMC, Supplier-Managed Charging, it smooths out the overnight EV charging demand.
 
-As you can see, with unmanaged charging, the BEV load easily passes over the capacity threshold.
+As you can see, with unmanaged charging, the BEV load easily exceeds the capacity threshold.
 :::
 
 ## SMC - Supplier Managed Charging {.light-centered .center}
 
 ::: {style="font-size: 32px;"}
-- SMC smooths out EV charging spike (called "Peak-shaving").
-- Electricity demand is controlled below capacity threshold.
+- SMC smooths out the EV charging spike (called "Peak-shaving").
+- Electricity demand is controlled below the capacity threshold.
 - It saves money and reduces pollution.
 :::
 

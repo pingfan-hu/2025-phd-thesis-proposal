@@ -3,8 +3,8 @@
 ## Recall the SMC Peak-shaving {.light-centered .center}
 
 ::: {style="font-size: 32px;"}
-- SMC smooths out EV charging spike (called "Peak-shaving").
-- Electricity demand is controlled below capacity threshold.
+- SMC smooths out the EV charging spike (called "Peak-shaving").
+- Electricity demand is controlled below the capacity threshold.
 - It saves money and reduces pollution.
 :::
 
@@ -23,7 +23,7 @@
 :::
 
 ::: {.centered-container}
-Peak-shaving **simulation** using model from study 1.
+Peak-shaving **simulation** using the model from Study 1.
 :::
 
 ## Plan of Action {.smaller .light-centered .center}
@@ -33,7 +33,7 @@ Peak-shaving **simulation** using model from study 1.
 ### Step 1: Data Collection {style="font-size: 32px; color: #739C69;"}
 - **NHTS**: Charging behavior data
 - **NREL**: Household electricity consumption data
-- **U.S. Census**: Count of single family households
+- **U.S. Census**: Count of single-family households
 - **Study 1**: MXL model of SMC enrollment utilities
 
 ### Step 2: Simulation {style="font-size: 32px; color: #739C69;"}
@@ -143,7 +143,7 @@ Data of household electricity consumption in each GEA region.
 ![](/figs/study-2/ev_peak_increase_and_cost.png){fig-align="center" width="85%" .purple-border}
 
 ::: {style="font-size: 32px;"}
-More incentives lead to higher SMC enrollment, thus more peak shaving.
+More incentives lead to higher SMC enrollment, thus more peak-shaving.
 :::
 
 ## Sensitivity Analysis {.dark-centered .center}
