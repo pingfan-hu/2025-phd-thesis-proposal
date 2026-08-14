@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 pagetitle: "PhD Thesis Proposal"
-title: "PhD Thesis Proposal:<br><span style='font-size: 0.7em;'>Electric Vehicle Smart Charging Adoption,<br>Grid Peak-Shaving Quantification, and<br>The `surveydown` Survey Platform</span>"
+title: "PhD Thesis Proposal:<br><span style='font-size: 0.7em;'>Battery Electric Vehicle Smart Charging Adoption,<br>Grid Peak-Shaving Quantification, and<br>The `surveydown` Survey Platform</span>"
 author: "<br>**Pingfan Hu**<br>George Washington University"
 
 format:

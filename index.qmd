@@ -10,8 +10,8 @@
 
 <br>
 
-- **Study 1:** First *large N* survey study of EV owner *preference sensitivities* to smart charging. Introduces *attribute equivalencies* for incentive design.
-- **Study 2:** Quantifies grid supply curves for *peak-shaving*, considering regions, seasons, EV-to-house ratios, and enrollment rates.
+- **Study 1:** First *large N* survey study of BEV owner *preference sensitivities* to smart charging. Introduces *attribute equivalencies* for incentive design.
+- **Study 2:** Quantifies grid supply curves for *peak-shaving*, considering regions, seasons, BEV-to-house ratios, and enrollment rates.
 - **Study 3:** `surveydown`, a free open-source survey platform for programmable, reproducible survey designs.
 
 ::: {.notes}
