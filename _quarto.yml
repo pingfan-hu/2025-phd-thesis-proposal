@@ -18,7 +18,7 @@ format:
     auto-stretch: false
     preview-links: auto
     logo: figs/logo.png
-    footer: "<a href='http://pingfanhu.com'>Pingfan Hu</a> - PhD Thesis Proposal"
+    footer: "<a href='https://pingfan.org'>Pingfan Hu</a> - PhD Thesis Proposal"
     link-external-newwindow: true
     link-external-icon: false
     center-title-slide: true
